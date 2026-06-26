@@ -1,0 +1,1 @@
+Ghost ROAS, dijital reklam platformlarında görünen ROAS değerinin gerçekte ne kadar doğru olduğunu analiz eden yapay zeka destekli bir tanı aracıdır. Kullanıcının girdiği kampanya verilerini; attribution modeli, platform ücretleri ve ülkeye özel maliyetler gibi faktörlerle değerlendirerek düzeltilmiş ROAS hesaplar ve hızlı, aksiyon odaklı bir performans raporu sunar
