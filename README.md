@@ -130,12 +130,6 @@ graph TD
 
   <br>
 
-  **Engel Kaydı (Impediment Log)**
-
-  | Tarih | Engel | Alınan Karar | Durum |
-  |-------|-------|--------------|-------|
-  | 22 Haziran | FonRadar/AgentShield fikirleri mevcut imkanlarla uyuşmuyor | NutriLens AI fikrine karar verildi | ✅ |
-  | 28 Haziran | Kapsam genişleme (feature creep) riski | Barkod okuma ve restoran menüsü modülleri sonraki aşamalara ertelendi | ✅ |
  
   - **Ürün Durumu:** 
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3704fd84-bc55-4b53-9ed0-23b9fa0a936b" />
