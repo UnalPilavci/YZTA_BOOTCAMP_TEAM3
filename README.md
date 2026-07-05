@@ -191,3 +191,9 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   *(Sprint 3 notları, ekran görüntüleri ve toplantı detayları bu alana eklenecektir.)*
   
 </details>
+
+<hr>
+
+<p align="center">
+  This project was developed with ❤️. If you like our vision, feel free to support us by leaving a Star (⭐)!
+</p>
