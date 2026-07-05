@@ -30,7 +30,7 @@
   <br>
 
   ### 📌 Ürün İsmi
-  **NutriShield AI**
+  **NutriLens AI**
 
   ### 📝 Ürün Açıklaması
   **Problem:**
