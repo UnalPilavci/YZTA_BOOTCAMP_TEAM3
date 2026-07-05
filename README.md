@@ -2,9 +2,9 @@
 
 *Güvenli Gıda, Bilinçli Tüketim.*
 
-![Takım](https://img.shields.io/badge/Takım-3-007EC6?style=for-the-badge)
-![Alan](https://img.shields.io/badge/Alan-No--Code_%2F_Low--Code-007EC6?style=for-the-badge)
-![Bootcamp](https://img.shields.io/badge/Bootcamp-2026-5a5a5a?style=for-the-badge)
+![Takım](https://img.shields.io/badge/Takım-3-brightgreen?style=for-the-badge)
+![Alan](https://img.shields.io/badge/Alan-No--Code_%2F_Low--Code-brightgreen?style=for-the-badge)
+![Bootcamp](https://img.shields.io/badge/Bootcamp-2026-brightgreen?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 ---
@@ -14,7 +14,7 @@
   <br>
 
 | İsim | Rol | LinkedIn | GitHub |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :---: | :---: |
 | **Ünal Pilavcı** | Product Owner | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/ünal-p-a7bb2a24a) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/UnalPilavci) |
 | **Nisa Gündüz** | Scrum Master | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/nisa-g%C3%BCnd%C3%BCz-b9705932b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/nisagndz) |
 | **Gülşah Cihanker** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/g%C3%BCl%C5%9Fah-cihanker-29b37618b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/gulsahcihanker) |
