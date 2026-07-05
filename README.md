@@ -1,4 +1,3 @@
-
 # NutriLens AI
 
 *Güvenli Gıda, Bilinçli Tüketim.*
@@ -37,32 +36,40 @@
 
   ### 📝 Ürün Açıklaması
 
+  > [!WARNING]
   > **Problem:**
   > Market raflarındaki paketli ürünlerin arkasındaki içindekiler listeleri genellikle mikroskobik puntolarla, Latince kimyasal isimlerle ve karmaşık E-kodlarıyla doludur. Çölyak, laktoz intoleransı veya kuruyemiş alerjisi olan bireyler; çocuğuna temiz içerikli gıda yedirmek isteyen ebeveynler; sporcular ve diyet yapanlar için bu etiketleri her seferinde okumak hem zaman kaybettirir hem de hata payı bazı durumlarda hayati risk taşır. Piyasadaki barkod okuyucu uygulamalar ise ürün kendi veritabanlarında kayıtlı değilse çalışmaz veya sadece kalori/makro bilgisiyle sınırlı kalır.
 
   <br>
 
+  > [!TIP]
   > **Çözüm:**
   > NutriLens AI, ürünün “İçindekiler” kısmının fotoğrafını yapay zeka ile saniyeler içinde analiz eden bir mobil uygulamadır. Kullanıcı kendi alerjen ve hassasiyet profilini (gluten, laktoz, MSG, palm yağı vb.) bir kez oluşturur; sonrasında herhangi bir üründe kamerayla tarama yaptığında uygulama anında **KIRMIZI (Riskli)** veya **YEŞİL (Güvenli)** uyarısı verir ve karmaşık kimyasal isimleri/E-kodlarını sade bir dille açıklar. Üstelik uygulama, riskli bulunan (kırmızı) ürünlerin yerine kullanıcının profiline tam uyum sağlayan temiz içerikli alternatif ürün önerileri sunarak alışveriş deneyimini kesintisiz ve güvenli bir çözüme kavuşturur.
 
   <hr>
 
   ### ⚙️ Ürün Özellikleri
-  - Kişiselleştirilmiş alerjen/hassasiyet profili oluşturma
-  - Kamera ile içindekiler listesini anlık tarama (Vision AI + OCR)
-  - Renk kodlu uyarı ekranı (Kırmızı: Riskli / Yeşil: Güvenli)
-  - Jargonsuz sözlük katmanı: E-kodları ve kimyasal isimleri sade dilde açıklama
-  - Geçmiş tarama kayıtlarını saklama
+
+  | 🧩 Özellik | 📄 Açıklama / Teknoloji |
+  | :--- | :--- |
+  | 👤 **Kişiselleştirilmiş Profil** | Alerjen/hassasiyet profili oluşturma (gluten, laktoz, MSG, palm yağı vb.) |
+  | 📷 **Anlık Tarama** | Kamera ile içindekiler listesini tarama (Vision AI + OCR) |
+  | 🚦 **Renk Kodlu Uyarı** | Renk kodlu sonuç ekranı (🔴 Kırmızı: Riskli / 🟢 Yeşil: Güvenli) |
+  | 📖 **Jargonsuz Sözlük** | E-kodları ve kimyasal isimleri sade dilde açıklama |
+  | 🕓 **Geçmiş Kayıtlar** | Geçmiş tarama kayıtlarını saklama |
 
   <hr>
 
   ### 🎯 Hedef Kitle
-  - Gıda alerjisi ve intoleransı olan bireyler (çölyak, laktoz, kuruyemiş vb.)
-  - Çocuklarının beslenmesini takip eden bilinçli ebeveynler
-  - Sporcular ve fitness tutkunları
-  - Diyet ve kilo yönetimi sürecindekiler (ketojenik, vegan, vejetaryen vb.)
-  - Temiz beslenme (clean eating) odaklı tüketiciler
-  - 15 - 65 yaş arası gıda okuryazarlığına önem veren geniş kitle
+
+  | 👥 Kitle | 🔎 Açıklama |
+  | :--- | :--- |
+  | 🥜 **Alerji & İntolerans** | Gıda alerjisi ve intoleransı olan bireyler (çölyak, laktoz, kuruyemiş vb.) |
+  | 👨‍👩‍👧 **Bilinçli Ebeveynler** | Çocuklarının beslenmesini takip eden ebeveynler |
+  | 🏋️ **Sporcular** | Sporcular ve fitness tutkunları |
+  | 🥗 **Diyet & Kilo Yönetimi** | Ketojenik, vegan, vejetaryen vb. süreçtekiler |
+  | 🌿 **Temiz Beslenme** | Clean eating odaklı tüketiciler |
+  | 📚 **Gıda Okuryazarları** | 15 - 65 yaş arası gıda okuryazarlığına önem veren geniş kitle |
 
   <hr>
 
@@ -129,4 +136,3 @@ graph TD
   *(Sprint 3 notları, ekran görüntüleri ve toplantı detayları bu alana eklenecektir.)*
   
 </details>
-````
