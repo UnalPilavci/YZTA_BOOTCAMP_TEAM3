@@ -19,7 +19,7 @@
 | **Nisa Gündüz** | Scrum Master | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/nisa-g%C3%BCnd%C3%BCz-b9705932b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/nisagndz) |
 | **Gülşah Cihanker** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/g%C3%BCl%C5%9Fah-cihanker-29b37618b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/gulsahcihanker) |
 | **Mehmet Fatih Efe** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/mehmet-fatih-efe/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/mehmetfatihefe) |
-| **Beyza Demirbaş** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/beyzademirbas/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/abeyzad1) |
+| **Emine Beyza Demirbaş** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/beyzademirbas/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/abeyzad1) |
 
 </details>
 
@@ -136,7 +136,7 @@ graph TD
 
   
   - **Sprint Review:** - Kullanıcının kamerayla çektiği ürün içindekiler fotoğrafını otonom olarak işleyip, Gemini AI ile OCR ve risk analizi yaparak kırmızı/yeşil sonucu üreten çalışan bir MVP veri hattı kurmak.
-    - Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatif Efe, Beyza Demirbaş
+    - Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatif Efe, Emine Beyza Demirbaş
   - **Sprint Retrospective:**
 
 Sprint 1, bir kod geliştirme sprint’inden çok bir yön belirleme ve planlama sprint’i olarak geçti. Ekip, Ghost Roas, FonRadar ve AgentShield gibi alternatif proje fikirlerini değerlendirdikten sonra NutriLens AI üzerinde karar kıldı; bu süreç beklenenden biraz daha uzun sürdü çünkü her fikrin hedef kitle ve teknik uygulanabilirlik açısından ayrı ayrı tartışılması gerekti. Karar netleştikten sonra backlog taslağı, sprint panosu ve görev dağılımı hızlıca oluşturuldu, bu da ekibin fikir aşamasından planlama aşamasına geçişte iyi bir tempo yakaladığını gösterdi.
