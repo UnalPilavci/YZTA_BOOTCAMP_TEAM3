@@ -110,23 +110,23 @@ graph TD
 
   | Gün | Tarih | Açıklama |
   |-----|-------|----------|
-  | 1. GÜN | 19 Haziran 2026 | Dün: Başlangıç yayını izlendi. Bugün: Karar süreçlerini hızlandırmak amacıyla tüm proje fikirleri kolektif bir listede toplandı; rol dağılımı konuşuldu. Engel: Yok. |
-  | 2. GÜN | 20 Haziran 2026 | Dün: Proje fikirleri havuzu oluşturuldu (FonRadar, AgentShield, alerjen asistanı vb.). Bugün: Ekip rollerini netleştirmek ve öne çıkan fikirleri değerlendirmek üzere bir araya gelindi. Engel: Yok. |
-  | 3. GÜN | 21 Haziran 2026 | Dün: Ekip rolleri belirlendi; FonRadar (hibe/yatırım eşleştirme asistanı) ve AgentShield fikirleri değerlendirmeye alındı. Bugün: İki fikrin teknik gereksinim ve zaman kısıtı analizleri yapıldı. Engel: Yok. |
-  | 4. GÜN | 22 Haziran 2026 | Dün: Teknik gereksinim analizleri tamamlandı. Bugün: FonRadar'ın veri katmanı (KOSGEB/TÜBİTAK tarama, PDF ayrıştırma) ve AgentShield'in kapsamı mevcut süre/imkanlarla uyuşmadığından fikirlerin elenmesi değerlendirildi. Engel: Kritik: Değerlendirilen fikirler mevcut imkanlarla uyuşmuyor. |
-  | 5. GÜN | 23 Haziran 2026 | Dün: FonRadar ve AgentShield fikirleri elendi, NutriLens AI (alerjen/hassasiyet güvenlik asistanı) fikrine karar verildi. Bugün: NutriLens AI için Product Backlog taslağı hazırlandı. Engel: Yok. |
-  | 6. GÜN | 24 Haziran 2026 | Dün: Product Backlog taslağı hazırlandı. Bugün: Sprint 1 panosu kuruldu, görev atamaları ve zorluk dereceleri belirlendi. Engel: Yok. |
-  | 7. GÜN | 25 Haziran 2026 | Dün: Görev atamaları tamamlandı. Bugün: Proje mimarisi (profil → foto → Gemini Vision → risk analizi → uyarı ekranı akış şeması) tasarlandı; henüz uygulanmadı, yalnızca tasarım aşamasında. Engel: Yok. |
-  | 8. GÜN | 26 Haziran 2026 | Dün: Mimari akış şeması tasarlandı. Bugün: MVP altyapısı için Softr / Bubble / Make karşılaştırması yapıldı; karar henüz verilmedi, değerlendirme sürüyor. Engel: Yok. |
-  | 9. GÜN | 27 Haziran 2026 | Dün: Altyapı karşılaştırma raporu hazırlandı. Bugün: Teknoloji yığını (Make.com, Gemini API, Airtable) kurulumu ile veri hattının 2. aşamada yapılacak işler olarak listelenmesine karar verildi. Engel: Yok. |
-  | 10. GÜN | 28 Haziran 2026 | Dün: 2. aşamada yapılacak işler (veri hattı, Türkçe alerjen sözlüğü, OCR/Gemini Vision entegrasyonu, barkod ve restoran menüsü modülleri) netleştirildi. Bugün: Ekip içi senkronizasyonu korumak ve kapsamın dışına çıkılmasını (feature creep) önlemek için hizalanma toplantısı yapıldı. Engel: Kapsamın çok genişleme riski (Önlem alındı). |
-  | 11. GÜN | 29 Haziran 2026 | Dün: Kapsam sınırları netleştirildi (barkod ve restoran menüsü modülleri sonraki aşamalara ertelendi). Bugün: Sunum dosyası için ön taslaklar hazırlandı. Sprint Review ve Retrospective tarihleri planlandı. Engel: Yok. |
-  | 12. GÜN | 30 Haziran 2026 | Dün: Sunum taslakları hazırlandı. Bugün: Product Backlog gözden geçirildi ve düzenlendi. Engel: Yok. |
-  | 13. GÜN | 1 Temmuz 2026 | Dün: Product Backlog düzenlendi. Bugün: Sprint 2'de yapılacak işler (teknoloji yığını kurulumu, veri hattı, alerjen sözlüğü, arayüz ve uyarı ekranı geliştirmeleri) belirlenip önceliklendirildi. Engel: Yok. |
-  | 14. GÜN | 2 Temmuz 2026 | Dün: Sprint 2 iş kalemleri belirlendi. Bugün: Sprint 1 kapatılmadan önce panoların son senkronizasyon kontrolleri yapıldı. Engel: Yok. |
-  | 15. GÜN | 3 Temmuz 2026 | Dün: Panolar senkronize edildi. Bugün: Sprint 1'in kapanışı için Review ve Retrospective toplantıları yapıldı. Engel: Yok. |
-  | 16. GÜN | 4 Temmuz 2026 | Dün: Review ve Retrospective toplantıları yapıldı. Bugün: Repository düzenlendi (klasör/doküman yapısı — kod değil) ve Sprint 1 kapatıldı. Engel: Yok. |
-  | 17. GÜN | 5 Temmuz 2026 | Dün: Repo düzenlenerek Sprint 1 kapatıldı. Bugün: Sprint 2 görevleri planlanarak board'a eklendi; geliştirme çalışmaları Sprint 2'de başlayacak şekilde bırakıldı. Engel: Yok. |
+  | 1. GÜN | 19 Haziran 2026 |  Başlangıç yayını izlendi. Karar süreçlerini hızlandırmak amacıyla tüm proje fikirleri kolektif bir listede toplandı; rol dağılımı konuşuldu. Engel: Yok. |
+  | 2. GÜN | 20 Haziran 2026 |  Proje fikirleri havuzu oluşturuldu (FonRadar, AgentShield, alerjen asistanı vb.). Ekip rollerini netleştirmek ve öne çıkan fikirleri değerlendirmek üzere bir araya gelindi. Engel: Yok. |
+  | 3. GÜN | 21 Haziran 2026 |  Ekip rolleri belirlendi; FonRadar (hibe/yatırım eşleştirme asistanı) ve AgentShield fikirleri değerlendirmeye alındı. İki fikrin teknik gereksinim ve zaman kısıtı analizleri yapıldı. Engel: Yok. |
+  | 4. GÜN | 22 Haziran 2026 |  Teknik gereksinim analizleri tamamlandı. FonRadar'ın veri katmanı (KOSGEB/TÜBİTAK tarama, PDF ayrıştırma) ve AgentShield'in kapsamı mevcut süre/imkanlarla uyuşmadığından fikirlerin elenmesi değerlendirildi. Engel: Kritik: Değerlendirilen fikirler mevcut imkanlarla uyuşmuyor. |
+  | 5. GÜN | 23 Haziran 2026 |  FonRadar ve AgentShield fikirleri elendi, NutriLens AI (alerjen/hassasiyet güvenlik asistanı) fikrine karar verildi. NutriLens AI için Product Backlog taslağı hazırlandı. Engel: Yok. |
+  | 6. GÜN | 24 Haziran 2026 |  Product Backlog taslağı hazırlandı. Sprint 1 panosu kuruldu, görev atamaları ve zorluk dereceleri belirlendi. Engel: Yok. |
+  | 7. GÜN | 25 Haziran 2026 |  Görev atamaları tamamlandı. Proje mimarisi (profil → foto → Gemini Vision → risk analizi → uyarı ekranı akış şeması) tasarlandı; henüz uygulanmadı, yalnızca tasarım aşamasında. Engel: Yok. |
+  | 8. GÜN | 26 Haziran 2026 |  Mimari akış şeması tasarlandı. MVP altyapısı için Softr / Bubble / Make karşılaştırması yapıldı; karar henüz verilmedi, değerlendirme sürüyor. Engel: Yok. |
+  | 9. GÜN | 27 Haziran 2026 |  Altyapı karşılaştırma raporu hazırlandı. Teknoloji yığını (Make.com, Gemini API, Airtable) kurulumu ile veri hattının 2. aşamada yapılacak işler olarak listelenmesine karar verildi. Engel: Yok. |
+  | 10. GÜN | 28 Haziran 2026 |  2. aşamada yapılacak işler (veri hattı, Türkçe alerjen sözlüğü, OCR/Gemini Vision entegrasyonu, barkod ve restoran menüsü modülleri) netleştirildi. Ekip içi senkronizasyonu korumak ve kapsamın dışına çıkılmasını (feature creep) önlemek için hizalanma toplantısı yapıldı. Engel: Kapsamın çok genişleme riski (Önlem alındı). |
+  | 11. GÜN | 29 Haziran 2026 |  Kapsam sınırları netleştirildi (barkod ve restoran menüsü modülleri sonraki aşamalara ertelendi). Sunum dosyası için ön taslaklar hazırlandı. Sprint Review ve Retrospective tarihleri planlandı. Engel: Yok. |
+  | 12. GÜN | 30 Haziran 2026 |  Sunum taslakları hazırlandı. Product Backlog gözden geçirildi ve düzenlendi. Engel: Yok. |
+  | 13. GÜN | 1 Temmuz 2026 |  Product Backlog düzenlendi. Sprint 2'de yapılacak işler (teknoloji yığını kurulumu, veri hattı, alerjen sözlüğü, arayüz ve uyarı ekranı geliştirmeleri) belirlenip önceliklendirildi. Engel: Yok. |
+  | 14. GÜN | 2 Temmuz 2026 |  Sprint 2 iş kalemleri belirlendi. Sprint 1 kapatılmadan önce panoların son senkronizasyon kontrolleri yapıldı. Engel: Yok. |
+  | 15. GÜN | 3 Temmuz 2026 |  Panolar senkronize edildi. Sprint 1'in kapanışı için Review ve Retrospective toplantıları yapıldı. Engel: Yok. |
+  | 16. GÜN | 4 Temmuz 2026 |  Review ve Retrospective toplantıları yapıldı. Repository düzenlendi (klasör/doküman yapısı — kod değil) ve Sprint 1 kapatıldı. Engel: Yok. |
+  | 17. GÜN | 5 Temmuz 2026 |  Repo düzenlenerek Sprint 1 kapatıldı. Sprint 2 görevleri planlanarak board'a eklendi; geliştirme çalışmaları Sprint 2'de başlayacak şekilde bırakıldı. Engel: Yok. |
 
   <br>
 
