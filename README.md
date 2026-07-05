@@ -1,10 +1,10 @@
-# NutriShield AI
+# NutriLens AI
 
 *Güvenli Gıda, Bilinçli Tüketim.*
 
 ![Takım](https://img.shields.io/badge/Takım-3-007EC6?style=for-the-badge)
 ![Alan](https://img.shields.io/badge/Alan-No--Code_%2F_Low--Code-007EC6?style=for-the-badge)
-![Bootcamp](https://img.shields.io/badge/Bootcamp-2024-5a5a5a?style=for-the-badge)
+![Bootcamp](https://img.shields.io/badge/Bootcamp-2026-5a5a5a?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 ---
