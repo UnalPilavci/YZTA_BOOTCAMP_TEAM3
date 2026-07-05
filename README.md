@@ -144,7 +144,8 @@ graph TD
   - **Sprint Review:** - Kullanıcının kamerayla çektiği ürün içindekiler fotoğrafını otonom olarak işleyip, Gemini AI ile OCR ve risk analizi yaparak kırmızı/yeşil sonucu üreten çalışan bir MVP veri hattı kurmak.
     - Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatif Efe, Beyza Demirbaş
   - **Sprint Retrospective:**
-  Sprint 1, bir kod geliştirme sprint’inden çok bir yön belirleme ve planlama sprint’i olarak geçti. Ekip, Ghost Roas, FonRadar ve AgentShield gibi alternatif proje fikirlerini değerlendirdikten sonra NutriLens AI üzerinde karar kıldı; bu süreç beklenenden biraz daha uzun sürdü çünkü her fikrin hedef kitle ve teknik uygulanabilirlik açısından ayrı ayrı tartışılması gerekti. Karar netleştikten sonra backlog taslağı, sprint panosu ve görev dağılımı hızlıca oluşturuldu, bu da ekibin fikir aşamasından planlama aşamasına geçişte iyi bir tempo yakaladığını gösterdi.
+
+Sprint 1, bir kod geliştirme sprint’inden çok bir yön belirleme ve planlama sprint’i olarak geçti. Ekip, Ghost Roas, FonRadar ve AgentShield gibi alternatif proje fikirlerini değerlendirdikten sonra NutriLens AI üzerinde karar kıldı; bu süreç beklenenden biraz daha uzun sürdü çünkü her fikrin hedef kitle ve teknik uygulanabilirlik açısından ayrı ayrı tartışılması gerekti. Karar netleştikten sonra backlog taslağı, sprint panosu ve görev dağılımı hızlıca oluşturuldu, bu da ekibin fikir aşamasından planlama aşamasına geçişte iyi bir tempo yakaladığını gösterdi.
 
 MVP altyapısı konusunda (Softr / Bubble / Make karşılaştırması) henüz kesin bir karara varılmadı; bu, Sprint 2'nin ilk gününde çözülmesi gereken açık bir konu olarak kaldı. Proje mimarisi (akış şeması) tasarım aşamasında tamamlandı ancak henüz uygulamaya geçirilmedi, dolayısıyla teknik entegrasyonun (Make.com, Gemini API, Airtable) gerçek zamanlı davranışı hakkında henüz bir öngörümüz yok — bu da Sprint 2'nin en kritik risk alanı olarak değerlendirildi.
 
