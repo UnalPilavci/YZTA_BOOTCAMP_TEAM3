@@ -107,7 +107,10 @@ graph TD
   - **Backlog düzeni ve Story seçimleri:** Backlog oluşturulurken ekipteki geliştiricilerin görüşleri esas alındı ve uygulamanın çalışır bir MVP haline gelebilmesi için olmazsa olmaz kabul edilen temel akış netleştirildi: profil oluşturma, kamera ile tarama, OCR analizi ve uyarı ekranı. Proje toplamda üç sprintlik bir süreç olarak planlandığından ve henüz ekibin gerçek iş temposu test edilmediğinden, ilk sprintte temkinli davranılarak backlog'un yaklaşık üçte biri kadarlık bir kısmının alınması tercih edildi. Bu kapsamda Sprint 1'e, projenin iskeletini oluşturan story'ler dahil edildi: profil ekranı, kamera entegrasyonu ve Gemini API üzerinden OCR bağlantısı. Sprint 1 sonunda ekibin gösterdiği performans doğrultusunda, kalan sprintlerdeki görev yoğunluğu artırılabilir ya da mevcut planlamanın dışına çıkılarak ileriki sprintlere ait bazı story'ler öne çekilebilir.
   - **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: *[Sprint 1 Daily Scrum Chats Linki]*
   - **Sprint board update:** Sprint board screenshotları: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
-  - **Ürün Durumu:** Ekran görüntüleri: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
+  - **Ürün Durumu:** 
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/3704fd84-bc55-4b53-9ed0-23b9fa0a936b" />
+
+  
   - **Sprint Review:** - Kullanıcının kamerayla çektiği ürün içindekiler fotoğrafını otonom olarak işleyip, Gemini AI ile OCR ve risk analizi yaparak kırmızı/yeşil sonucu üreten çalışan bir MVP veri hattı kurmak.
     - Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatif Efe, Beyza Demirbaş
   - **Sprint Retrospective:**
