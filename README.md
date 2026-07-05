@@ -104,6 +104,28 @@ graph TD
 
   - **🔗 Product Backlog URL:** [Slack Product Backlog Board](https://yzta.slack.com/lists/T02LKGXV98C/F0BF5A5TXNZ) 
 
+  <details>
+    <summary><b>🖼️ Product Backlog Ekran Görüntüleri</b></summary>
+    <br>
+
+  <p align="center">
+    <img src="./product_backlog1.PNG" alt="Product Backlog 1" width="80%" />
+  </p>
+
+  <hr>
+
+  <p align="center">
+    <img src="./product_backlog2.PNG" alt="Product Backlog 2" width="80%" />
+  </p>
+
+  <hr>
+
+  <p align="center">
+    <img src="./product_backlog4.PNG" alt="Product Backlog 4" width="80%" />
+  </p>
+
+  </details>
+
   <br>
 
   **📋 Sprint 1 Daily Scrum Notları (17 GÜN)**
