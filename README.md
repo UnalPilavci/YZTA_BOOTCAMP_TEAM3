@@ -76,8 +76,7 @@
   <summary><b>🚀 Sprint 1</b></summary>
   <br>
 
-  - **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
-  - Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+  - **Backlog düzeni ve Story seçimleri:** Backlog oluşturulurken ekipteki geliştiricilerin görüşleri esas alındı ve uygulamanın çalışır bir MVP haline gelebilmesi için olmazsa olmaz kabul edilen temel akış netleştirildi: profil oluşturma, kamera ile tarama, OCR analizi ve uyarı ekranı. Proje toplamda üç sprintlik bir süreç olarak planlandığından ve henüz ekibin gerçek iş temposu test edilmediğinden, ilk sprintte temkinli davranılarak backlog'un yaklaşık üçte biri kadarlık bir kısmının alınması tercih edildi. Bu kapsamda Sprint 1'e, projenin iskeletini oluşturan story'ler dahil edildi: profil ekranı, kamera entegrasyonu ve Gemini API üzerinden OCR bağlantısı. Sprint 1 sonunda ekibin gösterdiği performans doğrultusunda, kalan sprintlerdeki görev yoğunluğu artırılabilir ya da mevcut planlamanın dışına çıkılarak ileriki sprintlere ait bazı story'ler öne çekilebilir.
   - **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: *[Sprint 1 Daily Scrum Chats Linki]*
   - **Sprint board update:** Sprint board screenshotları: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
   - **Ürün Durumu:** Ekran görüntüleri: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
