@@ -32,12 +32,19 @@
   ### 📌 Ürün İsmi
   **NutriLens AI**
 
-  ### 📝 Ürün Açıklaması
-  **Problem:**
-  Market raflarındaki paketli ürünlerin arkasındaki içindekiler listeleri genellikle mikroskobik puntolarla, Latince kimyasal isimlerle ve karmaşık E-kodlarıyla doludur. Çölyak, laktoz intoleransı veya kuruyemiş alerjisi olan bireyler; çocuğuna temiz içerikli gıda yedirmek isteyen ebeveynler; sporcular ve diyet yapanlar için bu etiketleri her seferinde okumak hem zaman kaybettirir hem de hata payı bazı durumlarda hayati risk taşır. Piyasadaki barkod okuyucu uygulamalar ise ürün kendi veritabanlarında kayıtlı değilse çalışmaz veya sadece kalori/makro bilgisiyle sınırlı kalır.
+  <hr>
 
-  **Çözüm:**
-  NutriLens AI, ürünün “İçindekiler” kısmının fotoğrafını yapay zeka ile saniyeler içinde analiz eden bir mobil uygulamadır. Kullanıcı kendi alerjen ve hassasiyet profilini (gluten, laktoz, MSG, palm yağı vb.) bir kez oluşturur; sonrasında herhangi bir üründe kamerayla tarama yaptığında uygulama anında **KIRMIZI (Riskli)** veya **YEŞİL (Güvenli)** uyarısı verir ve karmaşık kimyasal isimleri/E-kodlarını sade bir dille açıklar. Üstelik uygulama, riskli bulunan (kırmızı) ürünlerin yerine kullanıcının profiline tam uyum sağlayan temiz içerikli alternatif ürün önerileri sunarak alışveriş deneyimini kesintisiz ve güvenli bir çözüme kavuşturur.
+  ### 📝 Ürün Açıklaması
+
+  > **Problem:**
+  > Market raflarındaki paketli ürünlerin arkasındaki içindekiler listeleri genellikle mikroskobik puntolarla, Latince kimyasal isimlerle ve karmaşık E-kodlarıyla doludur. Çölyak, laktoz intoleransı veya kuruyemiş alerjisi olan bireyler; çocuğuna temiz içerikli gıda yedirmek isteyen ebeveynler; sporcular ve diyet yapanlar için bu etiketleri her seferinde okumak hem zaman kaybettirir hem de hata payı bazı durumlarda hayati risk taşır. Piyasadaki barkod okuyucu uygulamalar ise ürün kendi veritabanlarında kayıtlı değilse çalışmaz veya sadece kalori/makro bilgisiyle sınırlı kalır.
+
+  <br>
+
+  > **Çözüm:**
+  > NutriLens AI, ürünün “İçindekiler” kısmının fotoğrafını yapay zeka ile saniyeler içinde analiz eden bir mobil uygulamadır. Kullanıcı kendi alerjen ve hassasiyet profilini (gluten, laktoz, MSG, palm yağı vb.) bir kez oluşturur; sonrasında herhangi bir üründe kamerayla tarama yaptığında uygulama anında **KIRMIZI (Riskli)** veya **YEŞİL (Güvenli)** uyarısı verir ve karmaşık kimyasal isimleri/E-kodlarını sade bir dille açıklar. Üstelik uygulama, riskli bulunan (kırmızı) ürünlerin yerine kullanıcının profiline tam uyum sağlayan temiz içerikli alternatif ürün önerileri sunarak alışveriş deneyimini kesintisiz ve güvenli bir çözüme kavuşturur.
+
+  <hr>
 
   ### ⚙️ Ürün Özellikleri
   - Kişiselleştirilmiş alerjen/hassasiyet profili oluşturma
@@ -46,6 +53,8 @@
   - Jargonsuz sözlük katmanı: E-kodları ve kimyasal isimleri sade dilde açıklama
   - Geçmiş tarama kayıtlarını saklama
 
+  <hr>
+
   ### 🎯 Hedef Kitle
   - Gıda alerjisi ve intoleransı olan bireyler (çölyak, laktoz, kuruyemiş vb.)
   - Çocuklarının beslenmesini takip eden bilinçli ebeveynler
@@ -53,6 +62,8 @@
   - Diyet ve kilo yönetimi sürecindekiler (ketojenik, vegan, vejetaryen vb.)
   - Temiz beslenme (clean eating) odaklı tüketiciler
   - 15 - 65 yaş arası gıda okuryazarlığına önem veren geniş kitle
+
+  <hr>
 
   ### 🔗 Product Backlog URL
   [Miro Backlog Board](#) *(Buraya kendi Miro panonuzun linkini ekleyebilirsiniz)*
@@ -70,8 +81,7 @@
   - **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: *[Sprint 1 Daily Scrum Chats Linki]*
   - **Sprint board update:** Sprint board screenshotları: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
   - **Ürün Durumu:** Ekran görüntüleri: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
-  - **Sprint Review:** 
-    - Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
+  - **Sprint Review:** - Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. 
     - Sprint Review katılımcıları: *[Katılımcı İsimleri]*
   - **Sprint Retrospective:**
     - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
