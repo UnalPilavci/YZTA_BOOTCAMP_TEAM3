@@ -91,10 +91,6 @@ graph TD
     H --> K
 ```
 
-  <hr>
-
-  ### 🔗 Product Backlog URL
-  [Miro Backlog Board](#) *(Buraya kendi Miro panonuzun linkini ekleyebilirsiniz)*
 
 </details>
 
@@ -112,9 +108,7 @@ graph TD
 
   <br>
 
-  <details>
-    <summary><b>📋 Sprint 1 Daily Scrum Notları (17 GÜN)</b></summary>
-    <br>
+  **📋 Sprint 1 Daily Scrum Notları (17 GÜN)**
 
   | Gün | Tarih | Açıklama |
   |-----|-------|----------|
@@ -144,8 +138,6 @@ graph TD
   |-------|-------|--------------|-------|
   | 22 Haziran | FonRadar/AgentShield fikirleri mevcut imkanlarla uyuşmuyor | NutriLens AI fikrine karar verildi | ✅ |
   | 28 Haziran | Kapsam genişleme (feature creep) riski | Barkod okuma ve restoran menüsü modülleri sonraki aşamalara ertelendi | ✅ |
-
-  </details>
 
   - **Sprint board update:** Sprint board screenshotları: *[Buraya ekran görüntüsü ekleyebilirsiniz]*
   - **Ürün Durumu:** 
