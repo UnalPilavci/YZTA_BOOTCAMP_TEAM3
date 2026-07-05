@@ -15,11 +15,11 @@
 
 | İsim | Rol | LinkedIn | GitHub |
 | :--- | :--- | :--- | :--- |
-| **Ünal Pilavcı** | Product Owner | [LinkedIn](https://www.linkedin.com/in/ünal-p-a7bb2a24a) | [GitHub](https://github.com/UnalPilavci) |
-| **Nisa Gündüz** | Scrum Master | [LinkedIn](https://www.linkedin.com/in/nisa-g%C3%BCnd%C3%BCz-b9705932b/) | [GitHub](https://github.com/nisagndz) |
-| **Gülşah Cihanker** | No Code Low Code Developer | [LinkedIn](https://www.linkedin.com/in/g%C3%BCl%C5%9Fah-cihanker-29b37618b/) | [GitHub](https://github.com/gulsahcihanker) |
-| **Mehmet Fatih Efe** | No Code Low Code Developer | [LinkedIn](https://www.linkedin.com/in/mehmet-fatih-efe/) | [GitHub](https://github.com/mehmetfatihefe) |
-| **Beyza Demirbaş** | No Code Low Code Developer | [LinkedIn](https://www.linkedin.com/in/beyzademirbas/) | [GitHub](https://github.com/abeyzad1) |
+| **Ünal Pilavcı** | Product Owner | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/ünal-p-a7bb2a24a) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/UnalPilavci) |
+| **Nisa Gündüz** | Scrum Master | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/nisa-g%C3%BCnd%C3%BCz-b9705932b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/nisagndz) |
+| **Gülşah Cihanker** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/g%C3%BCl%C5%9Fah-cihanker-29b37618b/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/gulsahcihanker) |
+| **Mehmet Fatih Efe** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/mehmet-fatih-efe/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/mehmetfatihefe) |
+| **Beyza Demirbaş** | No Code Low Code Developer | [![LinkedIn](https://img.icons8.com/color/28/000000/linkedin.png)](https://www.linkedin.com/in/beyzademirbas/) | [![GitHub](https://img.icons8.com/ios-glyphs/28/000000/github.png)](https://github.com/abeyzad1) |
 
 </details>
 
