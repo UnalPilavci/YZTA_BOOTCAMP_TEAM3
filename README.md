@@ -144,9 +144,14 @@ graph TD
   - **Sprint Review:** - Kullanıcının kamerayla çektiği ürün içindekiler fotoğrafını otonom olarak işleyip, Gemini AI ile OCR ve risk analizi yaparak kırmızı/yeşil sonucu üreten çalışan bir MVP veri hattı kurmak.
     - Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatif Efe, Beyza Demirbaş
   - **Sprint Retrospective:**
-    - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-    - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı.
-    - Unit test'ler için ayrılan efor/saat arttırılmalı.
+  Sprint 1, bir kod geliştirme sprint’inden çok bir yön belirleme ve planlama sprint’i olarak geçti. Ekip, Ghost Roas, FonRadar ve AgentShield gibi alternatif proje fikirlerini değerlendirdikten sonra NutriLens AI üzerinde karar kıldı; bu süreç beklenenden biraz daha uzun sürdü çünkü her fikrin hedef kitle ve teknik uygulanabilirlik açısından ayrı ayrı tartışılması gerekti. Karar netleştikten sonra backlog taslağı, sprint panosu ve görev dağılımı hızlıca oluşturuldu, bu da ekibin fikir aşamasından planlama aşamasına geçişte iyi bir tempo yakaladığını gösterdi.
+
+MVP altyapısı konusunda (Softr / Bubble / Make karşılaştırması) henüz kesin bir karara varılmadı; bu, Sprint 2'nin ilk gününde çözülmesi gereken açık bir konu olarak kaldı. Proje mimarisi (akış şeması) tasarım aşamasında tamamlandı ancak henüz uygulamaya geçirilmedi, dolayısıyla teknik entegrasyonun (Make.com, Gemini API, Airtable) gerçek zamanlı davranışı hakkında henüz bir öngörümüz yok — bu da Sprint 2'nin en kritik risk alanı olarak değerlendirildi.
+
+Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, restoran menüsü ve tarama geçmişi gibi özellikler şimdilik ikinci öncelik olarak değerlendiriliyor. Ancak bu konudaki kapsam kararı henüz kesinleşmedi — Sprint 2'de ekip, çekirdek akışın (foto → analiz → sonuç) ne kadar hızlı oturduğuna bağlı olarak bu özelliklerden bazılarını erken devreye almayı da değerlendirebilir.
+
+**Sprint 2 için öncelik:** MVP altyapı seçiminin ilk 1-2 gün içinde kesinleştirilmesi ve foto → Gemini Vision → risk analizi veri hattının en azından uçtan uca çalışan bir prototip olarak test edilmesi.
+    
 
 </details>
 
