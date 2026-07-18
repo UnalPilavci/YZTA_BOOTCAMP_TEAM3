@@ -178,7 +178,149 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   <summary><b>🚀 Sprint 2</b></summary>
   <br>
   
-  *(Sprint 2 notları, ekran görüntüleri ve toplantı detayları bu alana eklenecektir.)*
+  </details>
+<hr>
+
+Sprint Türü: Geliştirme Sprinti (Development-only) — Bu sprintte ayrı bir tasarım/araştırma fazı yürütülmemiş, doğrudan ürün geliştirmesi yapılmıştır. Sprint Süresi: 15 gün (6 Temmuz – 20 Temmuz 2026). Platform: React Native (Expo SDK 54) mobil uygulama.
+Sprint Hedefi (Sprint Goal): Prototip iskeletini; gerçek AI analizi yapan, kullanıcı verisini bulutta güvenle saklayan ve sosyal bir topluluk katmanı içeren, mağazaya yakın (store-ready) bir mobil ürüne dönüştürmek. Bu hedef üç damara ayrıldı: Deneyim (UX/UI) — yeni tasarım sistemi ve tüm ana ekranların canlı, animasyonlu hâle getirilmesi; Zekâ (AI/Analiz) — foto → madde → skor → kişisel uyarı hattının uçtan uca çalışması; Altyapı (Backend) — Supabase üzerinde auth, veri kalıcılığı, topluluk ve offline senkron.
+Backlog düzeni ve Story seçimleri: Sprint 1'de ekibin gerçek iş temposu henüz test edilmediğinden temkinli davranılmış ve backlog'un yaklaşık üçte biri alınmıştı. Sprint 2'de bu tempo doğrulandığı için backlog'un ağırlıklı kısmı bu sprinte çekildi. Backlog MoSCoW (Must / Should / Could / Won't) yöntemiyle önceliklendirildi, her Epic kullanıcı hikâyelerine bölündü ve ekip içi efor tahmini Story Point (Fibonacci: 1-2-3-5-8-13) ile yapıldı. "Must" kategorisindeki tasarım sistemi, tarama/AI hattı, kimlik-profil ve backend epic'leri zorunlu kapsam olarak alındı; topluluk ve çoklu dil epic'leri "Should" olarak seçilmesine rağmen sprint içinde tamamlanabildi. FastAPI backend'e taşıma, admin panel, push bildirim ve barkod tarama bilinçli olarak kapsam dışı ("Won't") bırakıldı.
+Sprint içi puan değerlendirmesi 16 olarak belirlenmiştir.
+Puan tamamlama mantığı: Proje boyunca tamamlanması gereken backlog puanı 36'dır. Sprint 1'de hedeflenen 10 puan tamamlanmıştır. Sprint 1 ağırlıklı olarak fikir seçimi ve planlama ile geçtiğinden geliştirmenin ana yükü Sprint 2'ye bindirilmiş ve kalan 26 puanın 16'sı bu sprinte alınmıştır. Sprint 2 sonunda 16 puanın tamamı tamamlanmış ve hedefe ulaşılmıştır. Sprint 3'e doğrulama, güvenlik testleri ve sağlamlaştırma işleri için 10 puan bırakılmıştır.
+
+
+  <br>
+📊 Sprint 2 Puan Tablosu
+
+EpicKapsamÖncelikPuanDurum🎨 EPIC 1Tasarım Sistemi & Görsel KimlikMust3✅ Tamamlandı📸 EPIC 2Tarama & AI AnaliziMust4✅ Tamamlandı👤 EPIC 3Kimlik, Profil & OnboardingMust2✅ Tamamlandı☁️ EPIC 4Backend & Veri Kalıcılığı (Supabase + RLS)Must3✅ Tamamlandı🌐 EPIC 5Topluluk & KeşfetShould3✅ Tamamlandı🌍 EPIC 6Erişilebilirlik & Çoklu DilShould1✅ TamamlandıTOPLAM16✅ 16 / 16
+
+  <br>
+📈 Proje Geneli Puan Dağılımı
+
+SprintHedeflenen PuanTamamlananKümülatifDurumSprint 1101010 / 36✅ Hedefe ulaşıldıSprint 2161626 / 36✅ Hedefe ulaşıldıSprint 310—36 / 36⏳ Planlandı
+
+  <br>
+📋 Sprint 2 Story Listesi (Ekip İçi Efor Tahmini)
+
+Aşağıdaki SP değerleri ekip içi Fibonacci efor tahminini gösterir (toplam ~110 SP); bootcamp puanlaması ise yukarıdaki 36'lık ölçeğe normalize edilmiştir.
+
+IDUser StoryEpicSPDurumNL-01Bir kullanıcı olarak, modern ve tutarlı bir arayüz istiyorum ki uygulamaya güven duyayım.18✅ DoneNL-02Kullanıcı olarak koyu/açık tema seçebilmek istiyorum ki göz konforum korunsun.15✅ DoneNL-03Yeniden kullanılabilir bileşen kütüphanesi (kart, buton, rozet, skor halkası) istiyorum.15✅ DoneNL-04Kullanıcı olarak ürün etiketini fotoğraflayıp içindekileri okutmak istiyorum.28✅ DoneNL-05Kullanıcı olarak her maddenin benim için güvenli/hassas/riskli olduğunu görmek istiyorum.28✅ DoneNL-06Kullanıcı olarak ürünün 0–100 sağlık skorunu ve A–E notunu görmek istiyorum.25✅ DoneNL-07Kullanıcı olarak E-kodlarının sade açıklamasını (Şeffaf Sözlük) görmek istiyorum.23✅ DoneNL-08Kullanıcı olarak e-posta ile kayıt olup giriş yapmak istiyorum.35✅ DoneNL-09Kullanıcı olarak alerji/hassasiyet/diyet profilimi adım adım kurmak istiyorum.38✅ DoneNL-10Kullanıcı olarak profilimi sonradan düzenlemek istiyorum.35✅ DoneNL-11Kullanıcı olarak verilerimin bulutta saklanıp başka cihazda da görünmesini istiyorum.48✅ DoneNL-12Kullanıcı olarak internetim yokken de geçmiş taramalarımı görebilmek istiyorum.45✅ DoneNL-13Kullanıcı olarak sağlık verilerimin yalnızca bana ait olduğuna (RLS) güvenmek istiyorum.45✅ DoneNL-14Kullanıcı olarak hesabımı ve tüm verilerimi silebilmek istiyorum (KVKK/GDPR).43✅ DoneNL-15Kullanıcı olarak taradığım ürünü toplulukla paylaşmak istiyorum.58✅ DoneNL-16Kullanıcı olarak gönderileri beğenmek, yorum yapmak ve kaydetmek istiyorum.55✅ DoneNL-17Kullanıcı olarak başka kullanıcıları takip edip profillerini görmek istiyorum.55✅ DoneNL-18Kullanıcı olarak beslenme/sağlık blog yazılarını okumak istiyorum.53✅ DoneNL-19Kullanıcı olarak uygulamayı Türkçe veya İngilizce kullanmak istiyorum.65✅ DoneNL-20Kullanıcı olarak gizlilik/yasal metinlere ve ayarlara ulaşmak istiyorum.63✅ Done
+
+
+Won't (bu sprint dışı bırakılanlar): FastAPI backend'e taşıma, Admin Panel (Next.js), push bildirim, "Spor/Fitness" sekmesi içeriği, barkod tarama.
+
+
+
+
+🔗 Product Backlog URL: Slack Product Backlog Board
+
+
+  <br>
+🖼️ Sprint 2 Board Ekran Görüntüleri
+
+  <p align="center">
+    <img src="./sprint2_backlog1.PNG" alt="Sprint 2 Backlog 1" width="80%" />
+  </p>
+  <hr>
+  <p align="center">
+    <img src="./sprint2_backlog2.PNG" alt="Sprint 2 Backlog 2" width="80%" />
+  </p>
+  <br>
+  <br>
+🛠️ Kullanılan Teknoloji Yığını
+
+KatmanTeknolojiGörevÇatıReact Native 0.81 + Expo SDK 54 + Expo Router 6Mobil uygulama, dosya-tabanlı yönlendirmeDilTypeScript 5.9Tip güvenliğiStilNativeWind v4 (Tailwind CSS v3.4)Utility-first stillendirmeAnimasyonMoti + Reanimated 4Mikro-etkileşim, stagger, springİkon / Grafiklucide-react-native, react-native-svg, Skiaİkonlar, skor halkası, nabız çizgisiDurum YönetimiZustand 5 (+ AsyncStorage persist)İstemci durumu ve kalıcılıkBackendSupabase (Postgres + Auth + RLS)Kimlik, veri, topluluk, blogAI / VisionGroq API (Llama 4 Scout) — değiştirilebilir sağlayıcıFoto → madde çıkarımıÇoklu Dili18next + expo-localizationTR / ENFontlarSpace Grotesk + DM Sans (@expo-google-fonts)Tipografi
+
+  <br>
+🎨 Tasarım Sistemi — Tema, Renk ve Font Kararları
+
+Stil yönü "NutriLens Fresh Minimal" olarak belirlendi: neredeyse siyah/beyaz nötrler üzerine tek canlı vurgu (lime). Sprint 2'de eski "organik yeşil" kimlik emekliye ayrıldı.
+
+RolHexKullanımLime / Accent#DFFB4BScan FAB, birincil buton, bildirim rozeti, aktif vurguonLime (metin)#0C0F0CLime dolgu üzerindeki metin/ikon
+
+NötrlerAçık TemaKoyu TemaArka plan#FDFDFB#0C0F0CYüzey / Kart#F1F3EE#161B15Metin#101410#F4F6F1Sönük metin#7A857A#8A928AKenarlık#E7E9E3#232B22
+
+Sağlık skoru için trafik ışığı sistemi bilinçli olarak korundu; kötü skorun görsel olarak uyarması gerektiği için lime'a çevrilmedi:
+
+NotAralıkRenkAnlamA80–100#2FA34BMükemmelB65–79#84BB2EİyiC45–64#E6B325OrtaD25–44#E67E2EZayıfE0–24#DB4C40Kaçının
+
+Madde etiketi renkleri: 🟢 Güvenli #7CB342 · 🟡 Hassas #F5A623 · 🔴 Riskli #E24C4C · 🔵 Bilgi #4E7C59
+
+
+Erişilebilirlik kuralı: Renk asla tek başına anlam taşımaz — her etikette ikon + metin bulunur.
+
+
+
+Tipografi: Başlıklar Space Grotesk (500/600/700), gövde metni DM Sans (400/500/700). Type scale: display 44 · h1 28 · h2 22 · h3 18 · body 16 · label 14 · caption 12 px.
+
+Bileşen kütüphanesi (9 parça): card, pill, pressable-scale, reveal, score-ring, animated-number, skeleton, primary-button, pulse-line
+
+  <br>
+📱 Oluşturulan Ekranlar (30+ Rota)
+
+AkışEkranlarKimlik & OnboardingGiriş, Şifremi Unuttum, Kayıt: Hesap → Alerjenler → Rahatsızlıklar → Hassasiyetler → Diyetler → TamamAna Uygulama (Tab)Ana Sayfa, Spor/Fitness (placeholder), Keşfet (Topluluk + Blog), ProfilTarama & AnalizTarama (kamera), Sonuç, Geçmiş, Şeffaf Sözlük, Madde Detayı, Günün İpucuToplulukGönderi Paylaş, Yorumlar, Topluluk Profili, Profil Düzenle, Blog YazısıProfil & AyarlarRahatsızlık / Alerjen / Hassasiyet / Diyet / Vücut Bilgisi düzenleme, Ayarlar, Gizlilik
+
+  <br>
+  <br>
+📋 Sprint 2 Daily Scrum Notları (15 GÜN)
+
+GünTarihAçıklama1. GÜN6 Temmuz 2026Sprint 1'den devreden MVP altyapı kararı kapatıldı: Softr / Bubble / Make hattı yerine, kamera ve gerçek zamanlı AI analizi gereksinimini karşılayabilmek için React Native (Expo) + Supabase yığınına geçilmesine karar verildi. Sprint Planning tamamlandı; backlog MoSCoW ile önceliklendirilerek 20 story seçildi. Engel: tailwindcss@latest v4 geliyor, NativeWind v4 için v3'e pinlenmesi gerekti (^3.4.17 sabitlendi — çözüldü).2. GÜN7 Temmuz 2026babel/metro/tailwind config ve global.css kuruldu; Space Grotesk ile DM Sans fontları yüklendi. Renk token mimarisine geçildi. Engel: İki toolchain arası token senkronu manuel, yordam belirlendi.3. GÜN8 Temmuz 2026"Fresh Minimal" siyah + lime paleti kuruldu; açık/koyu tema tokenları tamamlandı. UI bileşen kütüphanesine başlandı (card, pill, button, score-ring). Engel: Yok.4. GÜN9 Temmuz 2026UI bileşenleri tamamlandı (reveal, skeleton, pressable-scale, animated-number, pulse-line) ve Moti animasyonları eklendi. Ana Sayfa geliştirmesine geçildi. Engel: MotiPressable layout tuzağı (flex-1 iç View'e düşüyor), pattern belirlendi.5. GÜN10 Temmuz 2026Ana Sayfa (hero kart, hızlı erişim, son taramalar) ve özel Scan FAB'lı alt navigasyon barı tamamlandı. Tarama ekranına geçildi. Engel: Yok.6. GÜN11 Temmuz 2026Kamera tarama akışı ve görüntü ön işleme (kırp/sıkıştır) tamamlandı. Vision provider katmanı iskeleti kuruldu. Engel: Groq API anahtarı şimdilik istemcide; prototip kısayolu olarak kabul edildi, teknik borç kaydı açıldı.7. GÜN12 Temmuz 2026Groq (Llama 4 Scout) ile foto → madde çıkarımı çalışır hâle geldi; prompt, parse ve hata yönetimi modülleri yazıldı. Engel: Yok.8. GÜN13 Temmuz 2026Deterministik sağlık skoru motoru (işlenme %40 + katkı %35 + besin %25) ve alerjen eşleştirme kural motoru yazıldı; Sonuç ekranı tamamlandı. Engel: Yok.9. GÜN14 Temmuz 2026Şeffaf Sözlük ve madde detay sheet'i tamamlandı; Geçmiş ekranı geliştirildi. Engel: Yok.10. GÜN15 Temmuz 2026Çok adımlı kayıt akışı (hesap → alerjenler → rahatsızlıklar → hassasiyetler → diyetler → tamam) ve profil seçim çipleri tamamlandı. Supabase şema/migration çalışmasına geçildi. Engel: Panelde "Confirm email" AÇIK olursa signUp session döndürmüyor, KAPALI olmalı (not düşüldü).11. GÜN16 Temmuz 2026Supabase Auth entegrasyonu tamamlandı; signedIn bayrağı oturumdan türetilerek kalıcı bayrak sızıntısı giderildi. Engel: Yok.12. GÜN17 Temmuz 2026Offline-first tarama senkronu (idempotent UUID, merge / sunucu-kazanır) tamamlandı. Profil sunucu senkronuna geçildi. Engel: Yeni cihazda "register-flash" riski; profil sunucudan gelene kadar yönlendirme bekletilerek çözüldü.13. GÜN18 Temmuz 2026Profil düzenleme ekranları ve KVKK/GDPR hesap silme (delete_own_account RPC) tamamlandı. Topluluk feed geliştirmesine başlandı. Engel: Yok.14. GÜN19 Temmuz 2026Topluluk feed, gönderi paylaşma, yorum sheet'i, topluluk profili ve takip özellikleri tamamlandı. Engel: Yorum sheet'inde native formSheet detent'i güvenilmez çalıştı, özel çizim (Reanimated) ile çözüldü.15. GÜN20 Temmuz 2026Blog ve makale ekranı, tam TR/EN çeviri, Ayarlar ve Gizlilik ekranları tamamlandı; uçtan uca typecheck ve lint temizlendi. Sprint Review ve Retrospective yapıldı. Engel: Cihazda uçtan uca doğrulama (sızıntı + RLS testleri) Sprint 3'e devredildi.
+
+  <br>
+
+Ürün Durumu:
+
+
+  <p align="center">
+    <img src="./sprint2_home.PNG" alt="Ana Sayfa" width="30%" />
+    <img src="./sprint2_scan.PNG" alt="Tarama Ekranı" width="30%" />
+    <img src="./sprint2_result.PNG" alt="Sonuç Ekranı" width="30%" />
+  </p>
+  <p align="center">
+    <img src="./sprint2_discover.PNG" alt="Keşfet / Topluluk" width="30%" />
+    <img src="./sprint2_profile.PNG" alt="Profil" width="30%" />
+    <img src="./sprint2_dictionary.PNG" alt="Şeffaf Sözlük" width="30%" />
+  </p>
+  <br>
+
+Sprint Review: Sprint 2'de ürün, cihaz-yerel bir prototipten; gerçek bir bulut backend'ine (Supabase) bağlı, sosyal katmanlı ve çok ekranlı bir uygulamaya dönüştürüldü.
+
+
+AlanÇıktıTasarımYeni "Fresh Minimal" kimliği, açık/koyu tema, 9 parçalık bileşen kütüphanesi, TR/ENTarama & AIKamera/galeri → Groq (Llama 4) → madde çıkarımı → skor → kişisel uyarı hattı çalışıyorEkranlar30+ ekran/rota (Ana Sayfa, Tarama, Sonuç, Geçmiş, Sözlük, Keşfet, Profil, Kayıt, Ayarlar)BackendSupabase auth + profil + tarama + topluluk + blog şeması, RLS güvenlik, 3 migrationOfflineOffline-first tarama senkronu (idempotent, merge)SosyalTopluluk feed, gönderi paylaş, beğeni/yorum/kaydet, takip, blog okuma
+
+Hedeflenen 16 puanın tamamı tamamlandı (%100). Kümülatif ilerleme: 26 / 36 puan. Kod tarafında typecheck ve lint temiz. Definition of Done açısından kod yazıldı, typecheck ve lint geçti, tema/dil desteği ekranlarda tutarlı; ancak cihazda uçtan uca doğrulama (özellikle Supabase sızıntı ve RLS testleri) henüz yapılmadı ve Sprint 3'ün ilk maddesi olarak devredildi.
+
+Bu sprintte kodu yazılan ancak doğrulanmayan ya da bilinçli olarak sonraya bırakılan işler: cihazda uçtan uca test, Supabase sızıntı ve RLS güvenlik testleri, 2. ve 3. migration'ların panelde çalıştırılması, "Confirm email" ayarının doğrulanması, AI çağrısının backend'e taşınması, Gemini sağlayıcısının bağlanması, Spor/Fitness sekmesi içeriği, push bildirim altyapısı, blog besleme hattı, otomatik birim testler ve tarama görsellerinin kalıcı depolamaya yüklenmesi.
+
+- Sprint Review katılımcıları: Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatih Efe, Emine Beyza Demirbaş
+
+
+Sprint Retrospective:
+
+
+Sprint 2, Sprint 1'in aksine tamamen bir geliştirme sprint'i olarak geçti ve seçilen 20 story'nin tamamının kodu tamamlandı. En çok işe yarayan karar, değiştirilebilir mimari tercihi oldu: vision provider katmanı sayesinde Groq → Gemini geçişi tek dosyalık bir işe indi, ekran → store → client sınırı ise backend'i uygulamanın geri kalanından izole etti. Yeni tasarım sistemi hızla oturdu ve bileşen kütüphanesi sonraki ekranların yapım hızını gözle görülür şekilde artırdı.
+
+Güvenlik tarafında alerjen eşleştirmenin LLM'e bırakılmayıp deterministik bir kural motoruyla yapılması ve sağlık verisinin RLS ile yalnızca sahibine açılması, geri dönülmesi zor olacak doğru kararlar olarak değerlendirildi. Topluluk gönderilerinin yalnızca uyarı sayısını taşıması, hangi uyarının alındığını asla herkese açık yazmaması da bu gizlilik ekseninin bir parçası oldu.
+
+Sprintin en net dersi ise şu oldu: "kod bitti" ile "done" aynı şey değil. Tüm fonksiyonellik yazıldı ancak cihazda uçtan uca doğrulama sprint içine sığmadı; bu nedenle Definition of Done'a "cihaz testi" zorunlu bir adım olarak eklenecek. Ayrıca toolchain kaynaklı tuzaklar (Tailwind v4/v3 çakışması, MotiPressable layout davranışı, typed routes) beklenenden fazla zaman kaybettirdi — bunlar artık dokümante edildiği için tekrarlanmayacak. Groq API anahtarının hâlâ istemcide durması bilinçli kabul edilmiş, ancak production öncesi mutlaka kapatılması gereken bir teknik borç olarak kayda geçti.
+
+Retro oylaması: Hız 🟢 Yüksek · Kalite 🟡 Orta (cihaz doğrulaması eksik) · Takım Morali 🟢 Yüksek
+
+#AksiyonSorumlulukNe zaman1Cihazda uçtan uca test (sızıntı testi: A çıkış → B giriş; RLS testi: B token'ıyla A verisi = 0 satır)GeliştirmeSprint 3 başı22. ve 3. migration'ları Supabase panelinde çalıştır, "Confirm email" KAPALI doğrulaGeliştirmeSprint 3 başı3Definition of Done'a "cihaz doğrulaması" zorunlu maddesi ekleEkipSprint 3 Planning4AI çağrısını backend'e (FastAPI / Supabase Edge Function) taşıma planıGeliştirmeSprint 3 backlog5Skor ve alerjen motorları için otomatik birim testleriGeliştirmeSprint 3
+
+Sprint 3 için öncelik: Yazılan bu geniş fonksiyonelliğin cihazda uçtan uca doğrulanması, güvenlik (sızıntı + RLS) testlerinin tamamlanması ve AI anahtarının istemciden çıkarılması.
+
+</details>
+<hr>
+<details>
+  <summary><b>🚀 Sprint 3</b></summary>
+  <br>
+(Sprint 3 notları, ekran görüntüleri ve toplantı detayları bu alana eklenecektir.)
+
+</details>
+<hr>
+<p align="center">
+  This project was developed with ❤️. If you like our vision, feel free to support us by leaving a Star (⭐)!
+</p>
   
 </details>
 
