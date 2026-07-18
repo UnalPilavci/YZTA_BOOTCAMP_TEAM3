@@ -289,21 +289,21 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
 
   <p align="center"><b>🗂️ Backlog Panosu — Genel Görünüm & Değerlendirme Aşamasında (6 öğe)</b></p>
   <p align="center">
-    <img src="./sprint2.PNG" alt="Sprint 2 Backlog — Değerlendirme Aşamasında" width="85%" />
+    <img src="images/sprint2.PNG" alt="Sprint 2 Backlog — Değerlendirme Aşamasında" width="85%" />
   </p>
 
   <hr>
 
   <p align="center"><b>✅ Tamamlandı — 20 öğe / ~113 Story Point</b></p>
   <p align="center">
-    <img src="./sprint2.2.PNG" alt="Sprint 2 Backlog — Tamamlandı" width="85%" />
+    <img src="images/sprint2.2.2.PNG" alt="Sprint 2 Backlog — Tamamlandı" width="85%" />
   </p>
 
   <hr>
 
   <p align="center"><b>⏳ Başlanacaklar — 11 öğe (Sprint 3'e devreden işler)</b></p>
   <p align="center">
-    <img src="./sprint2.2.2.PNG" alt="Sprint 2 Backlog — Başlanacaklar" width="85%" />
+    <img src="images/sprint2.2.PNG" alt="Sprint 2 Backlog — Başlanacaklar" width="85%" />
   </p>
 
   <hr>
@@ -402,56 +402,56 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
 
   <p align="center"><b>🔐 Giriş — Açık & Koyu Tema</b></p>
   <p align="center">
-    <img src="./login.PNG" alt="Login Light & Dark" width="80%" />
+    <img src="images/login.PNG" alt="Login Light & Dark" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>👋 Onboarding — Tanıtım Ekranları</b></p>
   <p align="center">
-    <img src="./onboarding.PNG" alt="Onboarding" width="80%" />
+    <img src="images/onboarding.PNG" alt="Onboarding" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>👤 Kayıt Akışı — Hesap & Sağlık Rahatsızlıkları (Adım 1-2)</b></p>
   <p align="center">
-    <img src="./register.PNG" alt="Register Step 1-2" width="80%" />
+    <img src="images/register.PNG" alt="Register Step 1-2" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>🥜 Kayıt Akışı — Alerjenler & Tamamlandı (Adım 3-4)</b></p>
   <p align="center">
-    <img src="./register1.PNG" alt="Register Step 3-4" width="80%" />
+    <img src="images/register1.PNG" alt="Register Step 3-4" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>⚙️ Profil & Ayarlar</b></p>
   <p align="center">
-    <img src="./profile_settings.PNG" alt="Profile & Settings" width="80%" />
+    <img src="images/profile_settings.PNG" alt="Profile & Settings" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>🌐 Keşfet — Topluluk</b></p>
   <p align="center">
-    <img src="./discover.PNG" alt="Discover — Community" width="80%" />
+    <img src="images/discover.PNG" alt="Discover — Community" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>📰 Keşfet — Blog</b></p>
   <p align="center">
-    <img src="./discover1.PNG" alt="Discover — Blog" width="80%" />
+    <img src="images/discover1.PNG" alt="Discover — Blog" width="80%" />
   </p>
 
   <hr>
 
   <p align="center"><b>📖 Şeffaf Sözlük — Açık & Koyu Tema</b></p>
   <p align="center">
-    <img src="./dictionary.PNG" alt="Dictionary Light & Dark" width="80%" />
+    <img src="images/dictionary.PNG" alt="Dictionary Light & Dark" width="80%" />
   </p>
 
   <hr>
