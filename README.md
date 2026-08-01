@@ -500,6 +500,254 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   **Sprint 3 için öncelik:** Yazılan bu geniş fonksiyonelliğin cihazda uçtan uca doğrulanması, güvenlik (sızıntı + RLS) testlerinin tamamlanması ve AI anahtarının istemciden çıkarılması.
 
 </details>
+<hr>
+
+<details>
+  <summary><b>🚀 Sprint 3</b></summary>
+  <br>
+
+  - **Sprint Türü:** Sağlamlaştırma + Geliştirme Sprinti (Hardening & Feature-Complete) — Sprint 2'de yazılan geniş fonksiyonellik önce cihazda doğrulanıp güvenlik testlerinden geçirildi, ardından ürün store-ready v1.0 seviyesine ve bir web yönetim paneline taşındı.
+  - **Sprint Süresi:** 13 gün (21 Temmuz – 2 Ağustos 2026)
+  - **Platform:** React Native (Expo SDK 54) mobil uygulama **+** Next.js 15 web yönetim paneli
+  - **Sprint Hedefi (Sprint Goal):** *"Sprint 2'de yazılan işlevselliği cihazda uçtan uca doğrulamak ve güvenliğini (RLS + oturum sızıntısı) kanıtlamak; ürünü öğün analizi, beslenme günlüğü, fitness, topluluk gizliliği ve gerçek zamanlı bildirimlerle tamamlamak; içerik ve moderasyon için ayrı bir web yönetim paneli (Next.js) inşa etmek."*
+
+  | Damar | Kapsam |
+  | :---- | :---- |
+  | **Güvenlik & Doğrulama** | Cihazda uçtan uca test, RLS/sızıntı testleri, migration'ların uygulanması |
+  | **Zekâ (AI/Analiz)** | Tabak/öğün analizi (kalori/makro/spor notu) + öğün skoru |
+  | **Ürün Genişlemesi** | Beslenme günlüğü v2, fitness & uzman pazaryeri, paketler, kişiselleştirme |
+  | **Sosyal & Gizlilik** | Gizli hesap, takip onayı, bildirim merkezi + gerçek zamanlı akış |
+  | **Yönetim (Web)** | Next.js admin paneli: içerik, moderasyon, geri bildirim, bülten, bakım |
+
+  <hr>
+
+  - **Backlog düzeni ve Story seçimleri:** Sprint 2'de ekibin geliştirme temposu doğrulandığı için Sprint 3'e hem devreden doğrulama/güvenlik işleri hem de kalan tüm ürün epic'leri alındı. Backlog yine **MoSCoW** ile önceliklendirildi ve efor **Story Point (Fibonacci)** ile tahmin edildi. Sprintin ilk damarı bilinçli olarak **"kod bitti ≠ done"** dersini kapatmaya ayrıldı: Sprint 2 fonksiyonelliği cihazda test edilip güvenlik (RLS + sızıntı) testleriyle kanıtlanmadan yeni özelliklere geçilmedi. "Must" epic'leri (doğrulama/güvenlik, öğün analizi & günlük, gizlilik & bildirimler) zorunlu kapsam; fitness/pazaryeri, web paneli ve kişiselleştirme "Should" olarak alınıp sprint içinde tamamlandı. AI çağrısının backend'e taşınması, push bildirim ve barkod tarama bilinçli olarak **"Won't"** bırakıldı.
+
+  - **Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.**
+
+  - **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam backlog puanı **36**'dır. Sprint 1'de 10, Sprint 2'de 16 puan tamamlanmıştı (kümülatif 26/36). Kalan **10 puan** bu sprinte alınmış ve **tamamı tamamlanarak proje 36/36'ya ulaşmıştır.** Bootcamp ölçeğindeki 10 puan, iç efor tahmininde ~120 Story Point'lik bir işe karşılık gelir (aşağıdaki story listesindeki SP değerleri iç tahmini gösterir; bootcamp puanlaması 36'lık ölçeğe normalize edilmiştir).
+
+  <br>
+
+  **📊 Sprint 3 Puan Tablosu**
+
+  | Epic | Kapsam | Öncelik | Puan | Durum |
+  | :---- | :---- | :---- | :---: | :---: |
+  | 🛡️ **EPIC 7** | Doğrulama & Güvenlik Sağlamlaştırma | Must | 2 | ✅ Tamamlandı |
+  | 🍽️ **EPIC 8** | Öğün Analizi & Beslenme Günlüğü v2 | Must | 2 | ✅ Tamamlandı |
+  | 💪 **EPIC 9** | Fitness & Uzman Pazaryeri | Should | 1 | ✅ Tamamlandı |
+  | 🔔 **EPIC 10** | Topluluk Gizliliği & Bildirimler | Must | 1 | ✅ Tamamlandı |
+  | 🖥️ **EPIC 11** | Web Yönetim Paneli (Next.js) | Should | 2 | ✅ Tamamlandı |
+  | ✨ **EPIC 12** | Kişiselleştirme & Ürün Olgunluğu | Should | 2 | ✅ Tamamlandı |
+  |  | **TOPLAM** |  | **10** | **✅ 10 / 10** |
+
+  <br>
+
+  **📈 Proje Geneli Puan Dağılımı**
+
+  | Sprint | Hedeflenen Puan | Tamamlanan | Kümülatif | Durum |
+  | :---- | :---: | :---: | :---: | :---: |
+  | Sprint 1 | 10 | 10 | 10 / 36 | ✅ Hedefe ulaşıldı |
+  | Sprint 2 | 16 | 16 | 26 / 36 | ✅ Hedefe ulaşıldı |
+  | **Sprint 3** | **10** | **10** | **36 / 36** | ✅ **Proje tamamlandı** |
+
+  <hr>
+
+  **📋 Sprint 3 Epic ve Story Listesi (iç efor tahmini)**
+
+  **🛡️ EPIC 7 — Doğrulama & Güvenlik Sağlamlaştırma (Must)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-21 | Kullanıcı olarak uygulamanın gerçek cihazda uçtan uca (giriş/kayıt/tarama/topluluk) sorunsuz çalışmasını istiyorum. | 5 | ✅ Done |
+  | NL-22 | Kullanıcı olarak çıkış yaptığımda verilerimin sonraki kullanıcıya SIZMAMASINI istiyorum (sızıntı testi). | 3 | ✅ Done |
+  | NL-23 | Kullanıcı olarak sağlık verimin RLS ile yalnızca bana açık olduğunun kanıtlanmasını istiyorum (B token'ıyla A verisi = 0 satır). | 5 | ✅ Done |
+  | NL-24 | Geliştirici olarak tüm migration'ları panelde uygulayıp "Confirm email KAPALI" ayarını doğrulamak istiyorum. | 2 | ✅ Done |
+
+  **🍽️ EPIC 8 — Öğün Analizi & Beslenme Günlüğü v2 (Must)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-25 | Kullanıcı olarak tabağımın fotoğrafını çekip tahmini kalori/makro ve spor değerlendirmesi almak istiyorum. | 8 | ✅ Done |
+  | NL-26 | Kullanıcı olarak öğün skorumu ve öğün geçmişimi (ürün taramasından ayrı) görmek istiyorum. | 5 | ✅ Done |
+  | NL-27 | Kullanıcı olarak öğünlerimi slot (kahvaltı/öğle/akşam/atıştırma) ve porsiyonla günlüğe eklemek istiyorum. | 8 | ✅ Done |
+  | NL-28 | Kullanıcı olarak günlük kalori/makro hedefime karşı ilerlememi çubuklarla görmek istiyorum. | 5 | ✅ Done |
+  | NL-29 | Kullanıcı olarak günlükte takvimden herhangi bir günü seçebilmek istiyorum. | 3 | ✅ Done |
+
+  **💪 EPIC 9 — Fitness & Uzman Pazaryeri (Should)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-30 | Kullanıcı olarak egzersizleri kalori tahminiyle görüp favorilere eklemek istiyorum. | 5 | ✅ Done |
+  | NL-31 | Antrenör/diyetisyen olarak rol rozetimi açıp ilan verebilmek istiyorum (RLS korumalı). | 8 | ✅ Done |
+  | NL-32 | Kullanıcı olarak ilan detayından uzmanla harici kanaldan (tel/IG/WhatsApp) iletişime geçmek istiyorum. | 5 | ✅ Done |
+
+  **🔔 EPIC 10 — Topluluk Gizliliği & Bildirimler (Must)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-33 | Kullanıcı olarak hesabımı gizli yapıp gönderi görünürlüğümü (herkese açık/takipçi/gizli) seçmek istiyorum. | 5 | ✅ Done |
+  | NL-34 | Kullanıcı olarak gizli hesaba takip isteği gönderip onay akışını yönetmek istiyorum. | 5 | ✅ Done |
+  | NL-35 | Kullanıcı olarak beğeni/yorum/takip bildirimlerini gerçek zamanlı almak istiyorum. | 8 | ✅ Done |
+
+  **🖥️ EPIC 11 — Web Yönetim Paneli (Should)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-36 | Yönetici olarak `service_role` yalnızca sunucuda çalışan, denetim kaydı tutan güvenli bir panele girmek istiyorum. | 8 | ✅ Done |
+  | NL-37 | Yönetici olarak blog, kategori ve egzersiz içeriklerini yönetmek istiyorum. | 5 | ✅ Done |
+  | NL-38 | Yönetici olarak kullanıcıları ve topluluğu (şikâyet/moderasyon) yönetmek istiyorum. | 5 | ✅ Done |
+  | NL-39 | Yönetici olarak geri bildirimleri ve bülten abonelerini görüntülemek istiyorum. | 3 | ✅ Done |
+  | NL-40 | Yönetici olarak bakım modunu açıp genel bakış istatistiklerini görmek istiyorum. | 3 | ✅ Done |
+
+  **✨ EPIC 12 — Kişiselleştirme & Ürün Olgunluğu (Should)**
+
+  | ID | User Story | SP | Durum |
+  | :---- | :---- | :---- | :---- |
+  | NL-41 | Kullanıcı olarak onboarding'de hedef, doğum tarihi ve vücut ölçülerimi girip kişisel günlük hedef almak istiyorum. | 5 | ✅ Done |
+  | NL-42 | Kullanıcı olarak abonelik paketlerini (Ücretsiz/Premium/Pro) ve kotamı görmek istiyorum. | 5 | ✅ Done |
+  | NL-43 | Kullanıcı olarak madde/gönderi kaydetmek ve kişi/gönderi/sözlükte arama yapmak istiyorum. | 5 | ✅ Done |
+  | NL-44 | Kullanıcı olarak geri bildirim, bülten, Yardım/SSS ve şifre değiştirme ekranlarına ulaşmak istiyorum. | 5 | ✅ Done |
+  | NL-45 | Kullanıcı olarak daha geniş bir katkı sözlüğü (E-kodları) ve sağlık/alerjen seçenekleri istiyorum. | 3 | ✅ Done |
+
+  > **Won't (bu sprint dışı — teknik borç):** AI çağrısının backend'e (Edge Function/FastAPI) taşınması · Push bildirim altyapısı · Barkod tarama · Canlı kamera/poz takipli AI fitness (EAS dev-client gerektirir).
+
+  - **🔗 Product Backlog URL:** [Slack Product Backlog Board](https://yzta.slack.com/lists/T02LKGXV98C/F0BF5A5TXNZ)
+
+  <br>
+
+  **🖼️ Sprint 3 Board / Product Backlog Ekran Görüntüleri**
+
+  <p align="center">
+    <img src="images/backlog1.PNG" alt="Sprint 3 Backlog 1" width="85%" />
+  </p>
+  <hr>
+  <p align="center">
+    <img src="images/backlog2.PNG" alt="Sprint 3 Backlog 2" width="85%" />
+  </p>
+  <hr>
+  <p align="center">
+    <img src="images/backlog3.PNG" alt="Sprint 3 Backlog 3" width="85%" />
+  </p>
+
+  <hr>
+
+  **🛠️ Sprint 3'te Eklenen Teknolojiler**
+
+  | Katman | Teknoloji | Görev |
+  | :---- | :---- | :---- |
+  | **Web Panel** | Next.js 15 (App Router + Turbopack) + React | Yönetim paneli (SSR/Server Components) |
+  | **Panel Güvenlik** | Supabase `service_role` (yalnız sunucuda) + `is_admin()` + audit log | RLS-bypass yönetsel okuma/yazma + denetim izi |
+  | **Gerçek Zamanlı** | Supabase Realtime (postgres_changes) | Canlı bildirim + canlı topluluk akışı |
+  | **Depolama** | Supabase Storage | Avatar, gönderi görseli, blog kapağı |
+  | **AI (öğün)** | Groq vision — ikinci prompt (tabak → kalori/makro/spor notu) | Öğün analizi |
+  | **Görsel** | expo-image | Egzersiz/görsel önbellekli render |
+
+  <hr>
+
+  **📱 Sprint 3'te Eklenen/Yenilenen Ekranlar (özet)**
+
+  | Akış | Ekranlar |
+  | :---- | :---- |
+  | **Öğün & Günlük** | Öğün Analizi (tabak), Beslenme Günlüğü v2 (takvim + slotlar), Günlüğe Ekle |
+  | **Fitness** | Spor sekmesi (egzersiz kütüphanesi + Antrenör/Diyetisyen Bul), İlan Oluştur, İlan Detayı, Egzersiz Detayı |
+  | **Sosyal & Gizlilik** | Bildirim Merkezi, Takip İstekleri, Gizlilik Ayarları, Takipçiler/Takip Edilenler (arama + kart), Arama (kişi/gönderi/sözlük) |
+  | **Kişiselleştirme** | Onboarding Hedef, Doğum Tarihi, Vücut Ölçüleri, Paketler, Kaydettiklerim |
+  | **Destek & Hesap** | Geri Bildirim, Bülten, Yardım & SSS, Şifre Değiştir (çok adımlı, doğrulamalı) |
+  | **Web Panel (18 sayfa)** | Genel Bakış, Blog, Kategoriler, Egzersizler, Kullanıcılar, Topluluk & Moderasyon, İlanlar, Geri Bildirim, Bülten Aboneleri, Ayarlar, Denetim Kaydı |
+
+  <hr>
+
+  **📋 Sprint 3 Daily Scrum Notları (13 GÜN)**
+
+  | Gün | Tarih | Açıklama |
+  | :---- | :---- | :---- |
+  | 1. GÜN | 21 Temmuz 2026 | Sprint Planning; devreden doğrulama işleri + kalan epic'ler MoSCoW ile önceliklendirildi. **Cihazda uçtan uca test** (giriş/kayıt/tarama/topluluk) yapıldı; **sızıntı testi** (A çıkış → B giriş, önceki verinin görünmemesi) geçti. **Engel:** `npx tsc` "This is not the tsc command…" hatası verdi → doğrulama gate'i `node node_modules/typescript/bin/tsc --noEmit` olarak sabitlendi. |
+  | 2. GÜN | 22 Temmuz 2026 | **RLS güvenlik testi**: B kullanıcısının token'ıyla A'nın sağlık verisi sorgulandı → 0 satır (owner-only RLS kanıtlandı). Tüm migration'lar panelde uygulandı; **"Confirm email" KAPALI** doğrulandı. **Abonelik paketleri** (Ücretsiz/Premium/Pro) + istemci-tarafı kota ve özellik kapıları (`useHasFeature`) eklendi. **Engel:** Yok. |
+  | 3. GÜN | 23 Temmuz 2026 | **Öğün (tabak) analizi**: ikinci vision prompt'u (kalori/makro/denge/işlenme/spor notu), `meal-score` motoru, öğün tablosu/store/kota ve ana sayfada çift-çember (ürün + öğün) eklendi. **Engel:** Yok. |
+  | 4. GÜN | 24 Temmuz 2026 | **Beslenme Günlüğü v2**: `diary_entries` tablosu, slot + porsiyon, "Öğünlerimden hızlı ekleme", offline-first store, günlük hedef ilerleme çubukları. **Engel:** Yok. |
+  | 5. GÜN | 25 Temmuz 2026 | **Onboarding hedefleri** ve profil verisinden **günlük kalori/makro hedefi** türetimi; **doğum tarihi** tek kaynağa indirildi (`birth_year` kaldırıldı); **vücut ölçüleri** genişletildi (bel/boyun/kalça vb.). **Engel:** Yok. |
+  | 6. GÜN | 26 Temmuz 2026 | **Gizlilik ekseni**: gizli hesap + gönderi görünürlüğü + **takip isteği/onay** akışı; bildirim tablosu + trigger'lar. **Engel:** Kritik — gizli hesap RLS politikasında özyineleme (infinite recursion) oluştu → **security-definer** yardımcı fonksiyonuyla çözüldü. |
+  | 7. GÜN | 27 Temmuz 2026 | **Gerçek zamanlı** katman: bildirim merkezi + topluluk akışında canlı "N yeni gönderi" pili; `useRealtimeInsert` hook'u ve realtime publication migration'ı. **Engel:** "cannot add postgres_changes callbacks … after subscribe" hatası (kanal yeniden kurulumu yarışı) → **benzersiz kanal topic'i** ile çözüldü. |
+  | 8. GÜN | 28 Temmuz 2026 | **Fitness & Uzman Pazaryeri**: egzersiz kütüphanesi (kalori tahmini + favoriler), **antrenör/diyetisyen ilan panosu** (rol rozeti + RLS), ilan oluştur/düzenle/detay ekranları; `SegmentControl` ortak bileşene çıkarıldı. **Engel:** Groq `llama-4-scout` / `llama-3.2-vision` modelleri Groq tarafından **kaldırıldı** → aktif model `qwen3` vision'a alındı, `reasoning_effort: none` ile JSON kesilmesi giderildi. |
+  | 9. GÜN | 29 Temmuz 2026 | **Kaydettiklerim** + **global arama** (kişi/gönderi/sözlük, debounce'lu); **Şeffaf Sözlük 122 E-koduna** genişletildi; sağlık durumu/alerjen/hassasiyet/diyet **seçenekleri genişletildi**. **Engel:** Yok. |
+  | 10. GÜN | 30 Temmuz 2026 | **Web Yönetim Paneli iskeleti** (Next.js 15, App Router): `service_role` yalnız sunucuda, `is_admin()` yardımcı fonksiyonu, **denetim kaydı**, auth guard/middleware, **Genel Bakış istatistikleri**. **Engel:** `service_role` anahtarının asla `NEXT_PUBLIC_` olmamasına özen — yalnız `.env.local`, sunucu tarafı. |
+  | 11. GÜN | 31 Temmuz 2026 | Panel içerik & moderasyon modülleri: **Blog, Kategoriler, Egzersizler, Kullanıcılar, Topluluk & Moderasyon (şikâyet/ban), İlanlar**. **Engel:** Seed'lerde `service_role` altında `auth.uid()` null olduğundan takip bildirimi ters düşüyordu → doğru bildirimler doğrudan eklenerek düzeltildi. |
+  | 12. GÜN | 1 Ağustos 2026 | Mobil **Geri Bildirim** + **Bülten** ekranları/tabloları ve panelde karşılık gelen sayfalar; **Yardım & SSS**; **Şifre Değiştir** (çok adımlı, doğrulamalı tasarım); **Blog yeniden tasarımı** (siyah/beyaz/lime editoryal) + örnek içerik seed'i; UX cilası (takipçiler/arama kart tasarımı, günlük **takvim tarih seçici**, geri bildirim konu kartları). **Engel:** Yok. |
+  | 13. GÜN | 2 Ağustos 2026 | **Nihai regresyon** (teslim gecesi): mobil + web panel uçtan uca; TR/EN paritesi; mobil ve admin için `tsc --noEmit` ve `expo lint`/`next lint` **temiz**. Dokümantasyon (mimari, admin panel, özellik planı, video sunum). Sprint Review + Retrospective yapıldı; proje **36/36** ile kapatıldı. **Engel:** Yok. |
+
+  <hr>
+
+  **🖼️ Ürün Durumu (Sprint 3 Ekran Görüntüleri)**
+
+  <p align="center"><b>🍽️ Öğün Analizi (Tabak)</b></p>
+  <p align="center"><img src="images/screen1.PNG" alt="screen1" width="80%" /></p>
+  <hr>
+  <p align="center"><b>📅 Beslenme Günlüğü v2 (Takvim + Slotlar)</b></p>
+  <p align="center"><img src="images/screen2.PNG" alt="screen2" width="80%" /></p>
+  <hr>
+  <p align="center"><b>💪 Spor — Egzersiz Kütüphanesi & Antrenör/Diyetisyen Bul</b></p>
+  <p align="center"><img src="images/screen3.PNG" alt="screen3" width="80%" /></p>
+  <hr>
+  <p align="center"><b>🔔 Bildirim Merkezi & Gizlilik</b></p>
+  <p align="center"><img src="images/screen4.PNG" alt="screen4" width="80%" /></p>
+  <hr>
+  <p align="center"><b>💬 Geri Bildirim · Bülten · Yardım & SSS</b></p>
+  <p align="center"><img src="images/screen5.PNG" alt="screen5" width="80%" /></p>
+  <hr>
+  <p align="center"><b>🖥️ Web Yönetim Paneli — Genel Bakış & Moderasyon</b></p>
+  <p align="center"><img src="images/screen6.PNG" alt="screen6" width="80%" /></p>
+
+  > Not: Yukarıdaki görseller için `images/` klasörüne `screen1.PNG` … `screen6.PNG` (ürün ekranları) ve `backlog1.PNG` … `backlog3.PNG` (backlog tablosu) dosyalarını eklemen yeterlidir.
+
+  <hr>
+
+  - **Sprint Review:**
+
+  Sprint 3'te NutriLens AI, "cihazda doğrulanmamış geniş bir prototipten"; güvenliği kanıtlanmış, öğün analizi ve beslenme günlüğü yapan, sosyal gizlilik ve gerçek zamanlı bildirimleri olan, ayrıca bir **web yönetim paneliyle** yönetilen **store-ready v1.0** bir ürüne dönüştü. Demo edilebilir çıktılar:
+
+  | Alan | Çıktı |
+  | :---- | :---- |
+  | **Güvenlik** | Cihaz e2e testi ✅, oturum sızıntısı testi ✅, RLS testi (B→A verisi = 0 satır) ✅, 30 migration uygulandı |
+  | **AI/Analiz** | Ürün taramasına ek **öğün (tabak) analizi** (kalori/makro/spor notu) + öğün skoru |
+  | **Beslenme** | Beslenme günlüğü v2 (takvim, slot, porsiyon) + günlük hedef ilerlemesi |
+  | **Fitness** | Egzersiz kütüphanesi + antrenör/diyetisyen ilan pazaryeri (RLS korumalı) |
+  | **Sosyal** | Gizli hesap + görünürlük ekseni + takip onayı + gerçek zamanlı bildirim/akış |
+  | **Yönetim** | 18 sayfalık Next.js paneli: içerik, moderasyon, kullanıcı, geri bildirim, bülten, bakım, denetim |
+  | **Olgunluk** | Paketler, kaydettiklerim, arama, geri bildirim, bülten, Yardım/SSS, şifre değiştir, TR/EN |
+
+  **Sprint Metrikleri:** Hedeflenen **10 / 10 puan tamamlandı (%100)** — 6 Epic / 25 Story, iç efor ~120 SP. Kümülatif ilerleme: **36 / 36 puan (proje tamamlandı).** Mobil ve web panel için typecheck + lint temiz.
+
+  **Definition of Done (güncel):** Kod yazıldı → `tsc --noEmit` + lint geçti → tema/dil tutarlı → **cihazda uçtan uca doğrulandı** → **güvenlik (RLS + sızıntı) testleri geçti**. Sprint 2'de eklenen "cihaz doğrulaması" maddesi bu sprintte fiilen uygulandı.
+
+  - **Sprint Review katılımcıları:** Ünal Pilavcı, Nisa Gündüz, Gülşah Cihanker, Mehmet Fatih Efe, Emine Beyza Demirbaş
+
+  **Kalan Teknik Borç (v1.1 yol haritası):** AI çağrısının backend'e/Edge Function'a taşınması (anahtarın istemciden çıkarılması) · Push bildirim · Barkod tarama · Canlı kamera/poz-takipli AI fitness (EAS dev-client) · Ödeme sağlayıcısı entegrasyonu · Skor/alerjen motorları için otomatik birim testler · Sözlük için semantik arama (pgvector/RAG).
+
+  <hr>
+
+  - **Sprint Retrospective:**
+
+  Sprint 3'ün en değerli kararı, sprinte **doğrulama ve güvenlikle başlamak** oldu: Sprint 2'nin "kod bitti ama cihazda test edilmedi" açığı, yeni özelliklere geçmeden önce kapatıldı. Sızıntı ve RLS testlerinin erken yapılması, sağlık verisi mahremiyetini bir varsayım olmaktan çıkarıp **kanıtlanmış bir gerçeğe** dönüştürdü. Sprint 2'de kurulan **değiştirilebilir mimari** bu sprintte de karşılığını verdi: Groq bazı modellerini kaldırdığında vision modelini değiştirmek tek dosyalık bir işe indi; ekran → store → servis sınırı sayesinde öğün analizi, günlük, fitness ve topluluk özellikleri birbirini bozmadan eklendi. Ayrı bir **web paneli** (Next.js, `service_role` yalnız sunucuda) içerik ve moderasyonu mobil koddan tamamen ayırarak güvenli bir yönetim katmanı sağladı.
+
+  Zorlanılan noktalar çoğunlukla **eşzamanlılık ve RLS** kaynaklıydı: gizli hesap politikasındaki özyineleme (security-definer ile çözüldü), `service_role` altında `auth.uid()`'in null olması nedeniyle seed bildirimlerinin ters düşmesi ve realtime kanalının yeniden kurulum yarışı ("after subscribe" hatası, benzersiz topic ile çözüldü). Bunların hepsi kök nedene inilerek çözüldü ve dokümante edildi. En büyük bilinçli teknik borç yine **AI anahtarının hâlâ istemcide olması**; mimari bunu backend'e taşımaya hazır olsa da bu sprintte kapsam dışı bırakıldı ve v1.1'e taşındı.
+
+  **Retro Oylaması:** Hız 🟢 Yüksek · Kalite 🟢 Yüksek (cihaz + güvenlik doğrulaması tamamlandı) · Takım Morali 🟢 Yüksek
+
+  **Aksiyonlar:**
+
+  | # | Aksiyon | Sorumluluk | Ne zaman |
+  | :---- | :---- | :---- | :---- |
+  | 1 | AI vision çağrısını Edge Function/FastAPI'ye taşıyıp anahtarı istemciden çıkar | Geliştirme | v1.1 |
+  | 2 | Skor + alerjen eşleştirme motorları için otomatik birim testler | Geliştirme | v1.1 |
+  | 3 | Push bildirim altyapısı (Expo Notifications) | Geliştirme | v1.1 |
+  | 4 | Ödeme sağlayıcısı entegrasyonu (paket kotalarını sunucu tarafına taşı) | Geliştirme | v1.1 |
+  | 5 | Sözlük için semantik arama (Supabase `pgvector`) — RAG'a ilk adım | Geliştirme | v1.2 |
+
+  **Proje kapanışı:** 36/36 puan tamamlandı; ürün mobil + web panel olarak uçtan uca çalışır, cihazda doğrulanmış ve güvenlik testlerinden geçmiş durumda. Kalan işler bir **v1.1/v1.2 yol haritası** olarak devredildi.
+
+</details>
+
 <p align="center">
   This project was developed with ❤️. If you like our vision, feel free to support us by leaving a Star (⭐)!
 </p>
