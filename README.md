@@ -610,7 +610,6 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   | NL-44 | Kullanıcı olarak geri bildirim, bülten, Yardım/SSS ve şifre değiştirme ekranlarına ulaşmak istiyorum. | 5 | ✅ Done |
   | NL-45 | Kullanıcı olarak daha geniş bir katkı sözlüğü (E-kodları) ve sağlık/alerjen seçenekleri istiyorum. | 3 | ✅ Done |
 
-  > **Won't (bu sprint dışı — teknik borç):** AI çağrısının backend'e (Edge Function/FastAPI) taşınması · Push bildirim altyapısı · Barkod tarama · Canlı kamera/poz takipli AI fitness (EAS dev-client gerektirir).
 
   - **🔗 Product Backlog URL:** [Slack Product Backlog Board](https://yzta.slack.com/lists/T02LKGXV98C/F0BF5A5TXNZ)
 
