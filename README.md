@@ -698,8 +698,6 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   <p align="center"><b>🖥️ Web Yönetim Paneli — Genel Bakış & Moderasyon</b></p>
   <p align="center"><img src="images/screen6.PNG" alt="screen6" width="80%" /></p>
 
-  > Not: Yukarıdaki görseller için `images/` klasörüne `screen1.PNG` … `screen6.PNG` (ürün ekranları) ve `backlog1.PNG` … `backlog3.PNG` (backlog tablosu) dosyalarını eklemen yeterlidir.
-
   <hr>
 
   - **Sprint Review:**
