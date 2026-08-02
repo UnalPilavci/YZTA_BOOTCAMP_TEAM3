@@ -1,0 +1,28 @@
+import type { ImageSourcePropType } from 'react-native';
+
+export const EXERCISE_IMAGES: Record<string, ImageSourcePropType> = {
+  pushup: require('../../assets/images/exercises/pushup.png'),
+  pull_up: require('../../assets/images/exercises/pull_up.png'),
+  bent_over_row: require('../../assets/images/exercises/bent_over_row.png'),
+  superman: require('../../assets/images/exercises/superman.png'),
+  shoulder_press: require('../../assets/images/exercises/shoulder_press.png'),
+  lateral_raise: require('../../assets/images/exercises/lateral_raise.png'),
+  biceps_curl: require('../../assets/images/exercises/biceps_curl.png'),
+  triceps_dips: require('../../assets/images/exercises/triceps_dips.png'),
+  squat: require('../../assets/images/exercises/squat.png'),
+  lunge: require('../../assets/images/exercises/lunge.png'),
+  calf_raise: require('../../assets/images/exercises/calf_raise.png'),
+  glute_bridge: require('../../assets/images/exercises/glute_bridge.png'),
+  donkey_kick: require('../../assets/images/exercises/donkey_kick.png'),
+  fire_hydrant: require('../../assets/images/exercises/fire_hydrant.png'),
+  plank: require('../../assets/images/exercises/plank.png'),
+  side_plank: require('../../assets/images/exercises/side_plank.png'),
+  russian_twist: require('../../assets/images/exercises/russian_twist.png'),
+  bicycle_crunch: require('../../assets/images/exercises/bicycle_crunch.png'),
+  reverse_crunch: require('../../assets/images/exercises/reverse_crunch.png'),
+  dead_bug: require('../../assets/images/exercises/dead_bug.png'),
+  bird_dog: require('../../assets/images/exercises/bird_dog.png'),
+  mountain_climber: require('../../assets/images/exercises/mountain_climber.png'),
+  jumping_jack: require('../../assets/images/exercises/jumping_jack.png'),
+  burpee: require('../../assets/images/exercises/burpee.png'),
+};
