@@ -696,22 +696,22 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   **🖼️ Ürün Durumu (Sprint 3 Ekran Görüntüleri)**
 
   <p align="center"><b>🍽️ Öğün Analizi (Tabak)</b></p>
-  <p align="center"><img src="images/screen1.PNG" alt="screen1" width="30%" /></p>
+  <p align="center"><img src="images/screen1.png" alt="screen1" width="30%" /></p>
   <hr>
   <p align="center"><b>📅 Beslenme Günlüğü v2 (Takvim + Slotlar)</b></p>
-  <p align="center"><img src="images/screen2.PNG" alt="screen2" width="30%" /></p>
+  <p align="center"><img src="images/screen2.png" alt="screen2" width="30%" /></p>
   <hr>
   <p align="center"><b>💪 Spor — Egzersiz Kütüphanesi & Antrenör/Diyetisyen Bul</b></p>
-  <p align="center"><img src="images/screen3.PNG" alt="screen3" width="30%" /></p>
+  <p align="center"><img src="images/screen3.png" alt="screen3" width="30%" /></p>
   <hr>
   <p align="center"><b>🔔 Bildirim Merkezi & Gizlilik</b></p>
-  <p align="center"><img src="images/screen4.PNG" alt="screen4" width="30%" /></p>
+  <p align="center"><img src="images/screen4.png" alt="screen4" width="30%" /></p>
   <hr>
   <p align="center"><b>💬 Geri Bildirim · Bülten · Yardım & SSS</b></p>
-  <p align="center"><img src="images/screen5.PNG" alt="screen5" width="30%" /></p>
+  <p align="center"><img src="images/screen5.png" alt="screen5" width="30%" /></p>
   <hr>
   <p align="center"><b>🖥️ Web Yönetim Paneli — Genel Bakış & Moderasyon</b></p>
-  <p align="center"><img src="images/screen6.PNG" alt="screen6" width="80%" /></p>
+  <p align="center"><img src="images/screen6.png" alt="screen6" width="80%" /></p>
 
   <hr>
 
