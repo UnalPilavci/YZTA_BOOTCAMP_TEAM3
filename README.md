@@ -628,6 +628,10 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   <p align="center">
     <img src="images/backlog3.PNG" alt="Sprint 3 Backlog 3" width="85%" />
   </p>
+  <hr>
+  <p align="center">
+    <img src="images/backlog4.PNG" alt="Sprint 3 Backlog 4" width="85%" />
+  </p>
 
   <hr>
 
