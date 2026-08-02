@@ -618,27 +618,31 @@ Ekip, MVP kapsamını olabildiğince sade tutma eğiliminde; barkod okuma, resto
   **🖼️ Sprint 3 Board / Product Backlog Ekran Görüntüleri**
 
   <p align="center">
-    <img src="images/backlog1.PNG" alt="Sprint 3 Backlog 1" width="85%" />
+    <img src="images/backlog1.PNG" alt="Sprint 3 Backlog 1" width="75%" />
   </p>
   <hr>
   <p align="center">
-    <img src="images/backlog2.PNG" alt="Sprint 3 Backlog 2" width="85%" />
+    <img src="images/backlog2.PNG" alt="Sprint 3 Backlog 2" width="75%" />
   </p>
   <hr>
   <p align="center">
-    <img src="images/backlog3.PNG" alt="Sprint 3 Backlog 3" width="85%" />
+    <img src="images/backlog3.PNG" alt="Sprint 3 Backlog 3" width="75%" />
   </p>
   <hr>
   <p align="center">
-    <img src="images/backlog4.PNG" alt="Sprint 3 Backlog 4" width="85%" />
+    <img src="images/backlog4.PNG" alt="Sprint 3 Backlog 4" width="75%" />
   </p>
   <hr>
   <p align="center">
-    <img src="images/backlog5.PNG" alt="Sprint 3 Backlog 5" width="85%" />
+    <img src="images/backlog5.PNG" alt="Sprint 3 Backlog 5" width="75%" />
   </p>
   <hr>
   <p align="center">
-    <img src="images/backlog6.PNG" alt="Sprint 3 Backlog 6" width="85%" />
+    <img src="images/backlog6.PNG" alt="Sprint 3 Backlog 6" width="75%" />
+  </p>
+  <hr>
+  <p align="center">
+    <img src="images/backlog7.PNG" alt="Sprint 3 Backlog 7" width="75%" />
   </p>
 
   <hr>
